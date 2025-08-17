@@ -25,7 +25,7 @@ function calcular() {
         return;
     }
     else{
-        let expressao = visor.replace(/x/g, "*").replace(/÷/g, "/");
+        let expressao = visor.replace(/x/g, "*").replace(/÷/g, "/") ;
         try {
             visor = eval(expressao).toString();
             atualizarVisor();
